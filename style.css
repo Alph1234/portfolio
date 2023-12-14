@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: o;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box ;
+    text-decoration: none;
+    list-style:none;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width:100%;
+    overflow-x:hidden
+}
+
+:root {
+    --primary-color: #ab40c0;
+}
+
+
+.nav-link:hover {
+    color: var(--primary-color) !important
+}
+
+header {
+    z-index:1000
+}
+
+.logo-2 {
+    color: var(--primary-color)
+}
+
+.hero-container {
+    min-height: 100vh;
+    background: url('./Images/jether-hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 span, h2 span, h4 span {
+    color: var(--primary-color)
+}
+
+.tabcontent {
+    display:none
+}
+
+.card-img-top {
+    height: 300px !important
+}
+
+.about-img {
+    border-radius: 50%;
+    border: 2px solid var(--primary-color)
+}
+
+.see-more-btn, .view-cv-btn {
+    background: var(--primary-color);
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.see-more-btn:hover, .view-cv-btn:hover {
+    background: transparent;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.see-more-btn:hover a, .view-cv-btn:hover a {
+    color:var(--primary-color)!important
+}
+
+.submit-btn {
+    background:var(--primary-color)!important;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.submit-btn:hover {
+    background: transparent !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+input[type=email], input[type=text], textarea {
+    border: 1.5px solid black;
+    border-radius: 5px
+}
+
+
